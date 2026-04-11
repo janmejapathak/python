@@ -1,0 +1,106 @@
+class employee:
+    salary = 12000000
+    language = "py"
+
+harry = employee()
+harry.name = "Harry"
+harry.language = "javascript"     #this is an instance attribute so java script is print as compare to py
+print(harry.name , harry.language , harry.salary)
+
+
+# rohan = employee()
+# rohan.name = "Zoro Shing"
+# print(rohan.name , rohan.language , rohan.salary)
+
+
+
+
+
+
+
+
+# class employee:
+#     salary = 12000000
+#     language = "py"
+
+
+#     def getInfo(self):
+#        print(f"The language is {self.language}. the salary is {self.salary}")
+#     def greet(self):
+#         print("Good morning")
+
+
+# harry = employee()
+# harry.name = "Harry"
+# harry.language = "javascript"     #this is an instance attribute so java script is print as compare to py
+# print(harry.name , harry.language , harry.salary)
+
+# harry.greet()
+# harry.getInfo()
+
+
+
+
+
+
+
+
+
+
+# class employee:
+#     salary = 12000000
+#     language = "py"
+
+#     def __init__(self , name ,salary, language):  # dunder method which is automatically called
+#       print("I am creating an object")
+                     
+    
+
+#     def getInfo(self):
+#        print(f"The language is {self.language}. the salary is {self.salary}")
+
+#     @staticmethod
+#     def greet(self):
+#         print("Good morning")
+
+
+# harry = employee()
+# harry.name = "Harry"
+# harry.language = "javascript"     #this is an instance attribute so java script is print as compare to py
+# print(harry.name , harry.language , harry.salary)
+
+# rohan = employee()
+
+
+
+
+
+
+
+
+
+
+# class employee:
+#     salary = 12000000
+#     language = "py"
+
+#     def __init__(self , name ,salary, language):  # dunder method which is automatically called
+#       self.name = name
+#       self.salary = salary
+#       self.language = language 
+#       print("I am creating an object")
+                     
+    
+
+#     def getInfo(self):
+#        print(f"The language is {self.language}. the salary is {self.salary}")
+
+#     @staticmethod
+#     def greet(self):
+#         print("Good morning")
+
+
+# harry = employee("Jai",120000000000000000000000,"Python")
+# print(harry.name , harry.language , harry.salary)
+
+# # rohan = employee("Jai",120000000000000000000000,"Python")
