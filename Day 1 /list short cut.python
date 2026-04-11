@@ -1,0 +1,18 @@
+friends = ["Apple","Orange",5,345.06,False,"Akshay","rohan"]
+# print(friends[0])
+# friends[0]= "grapes" # unlike strings are imutabel lists are mutable
+# print(friends[0])
+print(friends)
+friends.append("jai")
+print(friends)
+friends.reverse()
+print(friends)
+friends.insert(4,88888)
+print(friends)
+# friends.short()
+# print(friends)
+friends.pop(2)
+print(friends)
+print(friends.pop(2)) # its print only false this is an feature to know 
+friends.remove(2)
+print(friends)
